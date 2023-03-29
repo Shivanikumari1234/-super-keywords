@@ -1,0 +1,20 @@
+public class AS1 {
+    int a=10;
+}
+class SA extends AS1{
+    int a=20;
+    void show ()
+    {
+        System.out.println(a);
+        System.out.println(super.a);
+    }
+}
+class Text
+
+{
+    public static void main (String [] args)
+    {
+        SA r=new SA();
+        r.show();
+    }
+}
